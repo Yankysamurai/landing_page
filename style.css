@@ -6,8 +6,9 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+/* Header logo and navigation */
+
 .header {
-  
   border: 3px solid blue;
   padding: 10px;
   background-color: #1f2937;
@@ -25,7 +26,7 @@ body {
 
 .head-link {
   display: flex;
-  gap: 10px;
+  gap: 20px;
   list-style: none;
   margin: 0px;
   padding: 0px;
@@ -37,34 +38,29 @@ body {
   font-size: 18px;
 }
 
+/* Header title and image */
+
 .tit-img {
+  border: 3px solid green;
   display: flex;
-  flex: 1 1 auto;
-  
-  
-  
+  justify-content: center;
+  margin: 50px;
 }
 
-
-
 .tit-btn {
- border: 3px solid red;
- 
-
- 
+  border: 3px solid red;
+  max-width: 500px;
+  flex-wrap: wrap;
 }
 
 .title {
   font-size: 48px;
   font-weight: extra-bold;
   color: #f9faf8;
-  width: 400px;
 }
-
 .head-p {
   font-size: 18px;
   color: #e5e7eb;
-  width: 300px;
 }
 
 .btn {
@@ -77,33 +73,49 @@ body {
 
 .div-img {
   border: 3px solid yellow;
-  margin: 40px 10px 10px 10px;
-  
-  
 }
 
 .head-img {
-  
   max-height: 100%;
   min-height: 100%;
- 
-
+  max-width: 600px;
 }
 
+/* section */
 
-/* div.item {
-  vertical-align: top;
-  display: inline-block;
+.sec-head {
   text-align: center;
-  width: 120px;
+  margin-top: 40px;
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1F2937;;
 }
 
-.bod-img {
-  width: 100px;
-  height: 100px;
-  background-color: grey;
-} */
+.sec-info {
+  border: 3px solid blue;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+  
+}
 
-/* .caption {
-  display: block;
-} */
+.item {
+  border: 3px solid red;
+  width: 200px;
+  height: 200px;
+  
+}
+
+.sec-img {
+  border: 3px solid yellow;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.sec-p {
+  margin: 0px;
+  flex-wrap: wrap;
+}
+
