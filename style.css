@@ -9,7 +9,6 @@ body {
 /* Header logo and navigation */
 
 .header {
-  border: 3px solid blue;
   padding: 10px;
   background-color: #1f2937;
 }
@@ -41,14 +40,12 @@ body {
 /* Header title and image */
 
 .tit-img {
-  border: 3px solid green;
   display: flex;
   justify-content: center;
   margin: 50px;
 }
 
 .tit-btn {
-  border: 3px solid red;
   max-width: 500px;
   flex-wrap: wrap;
 }
@@ -71,10 +68,6 @@ body {
   padding: 5px 20px;
 }
 
-.div-img {
-  border: 3px solid yellow;
-}
-
 .head-img {
   max-height: 100%;
   min-height: 100%;
@@ -92,7 +85,6 @@ body {
 }
 
 .sec-info {
-  border: 3px solid blue;
   display: flex;
   justify-content: center;
   gap: 40px;
@@ -100,13 +92,11 @@ body {
 }
 
 .item {
-  border: 3px solid red;
   width: 175px;
   height: 175px;
 }
 
 .sec-img {
-  border: 3px solid yellow;
   width: 175px;
   height: 175px;
   border-radius: 10px;
@@ -137,7 +127,6 @@ body {
 /* cta */
 
 .cta-div {
- 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -150,10 +139,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 3px solid green;
+
   height: 100px;
   width: auto;
-  background-color: #3882F6;
+  background-color: #3882f6;
   padding: 0px 60px;
   border-radius: 5px;
 }
@@ -174,7 +163,7 @@ body {
 .cta-btn {
   background-color: #3882f6;
   color: white;
-  border:2px solid  white;
+  border: 2px solid white;
   border-radius: 5px;
   padding: 4px 15px;
   margin: 0px 40px;
@@ -189,7 +178,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .footer-p {
