@@ -88,7 +88,7 @@ body {
   margin-top: 40px;
   font-size: 36px;
   font-weight: extra-bold;
-  color: #1F2937;;
+  color: #1f2937;
 }
 
 .sec-info {
@@ -96,26 +96,43 @@ body {
   display: flex;
   justify-content: center;
   gap: 40px;
-  margin-top: 40px;
-  
+  margin: 40px 0 70px 0;
 }
 
 .item {
   border: 3px solid red;
-  width: 200px;
-  height: 200px;
-  
+  width: 175px;
+  height: 175px;
 }
 
 .sec-img {
   border: 3px solid yellow;
-  width: 200px;
-  height: 200px;
+  width: 175px;
+  height: 175px;
   border-radius: 10px;
 }
 
 .sec-p {
-  margin: 0px;
+  margin-top: 0px;
   flex-wrap: wrap;
+}
+
+/* quote */
+
+.fig-div {
+  background-color: rgb(231, 213, 213);
+}
+
+.figure {
+  
+  height: 200px;
+  
+  padding-top: 80px;
+  
+}
+
+.fig-cap {
+  text-align: end;
+  font-weight: bold;
 }
 
