@@ -124,11 +124,9 @@ body {
 }
 
 .figure {
-  
   height: 200px;
-  
+
   padding-top: 80px;
-  
 }
 
 .fig-cap {
@@ -136,3 +134,49 @@ body {
   font-weight: bold;
 }
 
+/* cta */
+
+.cta-div {
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: white;
+  height: 200px;
+}
+
+.blue-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 3px solid green;
+  height: 100px;
+  width: auto;
+  background-color: #3882F6;
+  padding: 0px 60px;
+  border-radius: 5px;
+}
+
+.cta-p {
+  color: white;
+  margin: 0;
+}
+
+.cta-tit {
+  font-weight: bold;
+}
+
+.cta-info {
+  font-size: 12px;
+}
+
+.cta-btn {
+  background-color: #3882f6;
+  color: white;
+  border:2px solid  white;
+  border-radius: 5px;
+  padding: 4px 15px;
+  margin: 0px 40px;
+  font-weight: bold;
+}
